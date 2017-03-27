@@ -11,6 +11,22 @@ go:
   - 1.6
   - 1.7
   - 1.7.5
+services:
+  - cassandra 
+  #- elasticsearch 
+  - memcached 
+  - mongodb 
+  - mysql 
+  - neo4j 
+  - postgres 
+  - rabbitmq 
+  - redis 
+  - selenium
+  - sqllite 
+  - couchdb 
+  - rethinkdb 
+  - riak     
+
 
 build:
   pre_ci_boot:
