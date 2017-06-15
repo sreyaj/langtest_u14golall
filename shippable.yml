@@ -20,4 +20,3 @@ build:
    
   ci:
     - go version
-   
