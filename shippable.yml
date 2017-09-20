@@ -20,6 +20,6 @@ build:
    
   ci:
     - go version
-    - thy
+  #  - thy
    
   #  - sleep 15m
