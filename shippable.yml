@@ -1,8 +1,7 @@
 language: python
 
 python:
-  - 3.4
-  - 3.5
+  - 2.7
 
 build:
   pre_ci_boot:
@@ -10,3 +9,5 @@ build:
     image_tag: master
     pull: true
   #  - sleep 15m
+  ci:
+    - python -v
