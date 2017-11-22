@@ -9,7 +9,7 @@ build:
     image_name: drydockaarch64/u16pyt
     image_tag: master
     pull: true
-  #  - sleep 15m
+    - sleep 8m
   ci:
     - python -v
     - uname -a
