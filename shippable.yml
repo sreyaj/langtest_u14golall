@@ -15,7 +15,7 @@ go:
 
 build:
   pre_ci_boot:
-    image_name: drydock/u14golall
+    image_name: drydock/u14golalledit
     image_tag: master
     pull: true
    
@@ -23,6 +23,6 @@ build:
     - go version
     - uname -a
   #  - thy
-    - sleep 15m
+   # - sleep 15m
 
 
