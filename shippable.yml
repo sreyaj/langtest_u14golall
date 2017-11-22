@@ -1,5 +1,5 @@
 language: python
-architecture: x86_64
+architecture: aarch64
 os: Ubuntu_16.04
 python:
   - 2.7
