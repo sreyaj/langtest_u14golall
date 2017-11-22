@@ -6,11 +6,11 @@ python:
 
 build:
   pre_ci_boot:
-    image_name: drydockaarch64/u16pyt
+    image_name: drydockaarch64/u16pytedit
     image_tag: master
     pull: true
   
   ci:
     - python -v
     - uname -a
-    - sleep 8m
+    #- sleep 8m
