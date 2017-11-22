@@ -23,4 +23,6 @@ build:
     - go version
     - uname -a
   #  - thy
-  #  - sleep 15m
+    - sleep 15m
+
+
