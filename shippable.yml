@@ -1,7 +1,7 @@
 # Language setting
 language: go
-architecture: x86_64
-os: Ubuntu_16.04
+#architecture: x86_64
+#os: Ubuntu_16.04
 # Version number
 go:
 #  - 1.1
